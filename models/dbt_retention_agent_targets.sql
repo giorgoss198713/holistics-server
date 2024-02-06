@@ -1,3 +1,4 @@
+{{ config(materialized='table') }}
 with normalized_google_sheet AS (SELECT concat, "Brand Name" as brand_name, "Team Name" as team_name, "Month Year" as month_year,
 "Agent Name Final" as agent_name_final, "1st Agent Target" as "1st_agent_target", "Pool status" as pool_status, 
 "1st Team Target" as "1st_team_target", "Pool Final" as pool_final, "Agent Name CRM" as agent_name_crm, 
