@@ -4,4 +4,5 @@ models:
     - name: dbt_retention_agent_targets
       description: "Transform Retention Agent Targets Google Sheet"
       config:
+          enabled: true
           tags: google_sheets_ret_agent_targets
