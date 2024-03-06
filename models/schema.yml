@@ -6,3 +6,8 @@ models:
       config:
           enabled: true
           tags: google_sheets_ret_agent_targets
+    - name: pool_targets_dbt
+      description: "modify text to integer pool targets"
+      config:
+          enabled: true
+          tags: pool_targets
