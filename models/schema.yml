@@ -16,3 +16,8 @@ models:
       config:
           enabled: true
           tags: country_targets_neil
+    - name: country_targets_neil_dbt
+      description: "modify text to integer for country pool targets"
+      config:
+          enabled: true
+          tags: country_pool_targets
