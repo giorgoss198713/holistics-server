@@ -21,3 +21,8 @@ models:
       config:
           enabled: true
           tags: country_pool_targets
+    - name: target_percent_server_dbt
+      description: "model to calculate targets percents"
+      config:
+          enabled: true
+          tags: target_percent_dbt
