@@ -26,3 +26,8 @@ models:
       config:
           enabled: true
           tags: target_percent_dbt
+    - name: agent_name_benjamin_dbt
+      description: "transform benjamin reports"
+      config:
+          enabled: true
+          tags: agent_name_benjamin
