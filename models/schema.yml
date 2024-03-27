@@ -31,3 +31,8 @@ models:
       config:
           enabled: true
           tags: agent_name_benjamin
+    - name: agent_name_adam_dbt
+      description: "transform adam reports"
+      config:
+          enabled: true
+          tags: agent_name_adam
