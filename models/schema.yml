@@ -36,3 +36,8 @@ models:
       config:
           enabled: true
           tags: agent_name_adam
+    - name: last_refreshed_datetime_dbt
+      description: "last refreshed datetime"
+      config:
+          enabled: true
+          tags: last_refreshed_dbt
