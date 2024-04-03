@@ -1,0 +1,1 @@
+SELECT TO_CHAR(current_timestamp, 'YYYY-MM-DD HH24:MI:SS') AS last_refreshed_datetime
