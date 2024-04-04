@@ -41,3 +41,8 @@ models:
       config:
           enabled: true
           tags: last_refreshed_dbt
+    - name: brands
+      description: "test for brands"
+      config:
+          enabled: true
+          tags: brands_test
