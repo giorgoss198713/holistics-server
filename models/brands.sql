@@ -1,2 +1,6 @@
-UPDATE sales_marketing.brands
-SET name = CASE WHEN id=1 THEN 'GIORGOS' ELSE name END
+SELECT 
+    crm_link,
+    md5(name) as name_hashed,
+    api_link,
+    id
+FROM sales_marketing.brands
