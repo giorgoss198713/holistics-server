@@ -46,3 +46,8 @@ models:
       config:
           enabled: true
           tags: brands_test
+    - name: fx_rates
+      description: "forex rates"
+      config:
+          enabled: true
+          tags: fx_rates
