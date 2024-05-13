@@ -46,7 +46,7 @@ models:
       config:
           enabled: true
           tags: brands_test
-    - name: clients_with_wd_percentage_nowdlm
+    - name: clients_with_wd_percentage_no_wdlm
       description: "clients with wd perc and no wd last month"
       config:
           enabled: true
