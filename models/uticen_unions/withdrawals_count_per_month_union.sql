@@ -1,0 +1,8 @@
+select
+client_id_brand, login, number_withdrawals_1_month_ago, status_withdrawals_1_month_ago, number_withdrawals_2_months_ago, status_withdrawals_2_months_ago, 
+number_withdrawals_3_months_ago, status_withdrawals_3_months_ago
+from sales_marketing.withdrawals_count_per_month_dbt
+UNION ALL
+select 
+*
+from sales_uticen.uticen_withdrawals_count_per_month

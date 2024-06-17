@@ -46,3 +46,197 @@ models:
       config:
           enabled: true
           tags: brands_test
+    - name: active_agents_union
+      description: "union for active agents"
+      config:
+          enabled: true
+          tags: active_agents_union
+    - name: agent_name_current_union
+      description: "union for current agent"
+      config:
+          enabled: true
+          tags: agent_name_current_union
+    - name: agent_name_final_union
+      description: "union for final agent"
+      config:
+          enabled: true
+          tags: agent_name_final_union
+    - name: agent_name_ftd_union
+      description: "union for ftd agent"
+      config:
+          enabled: true
+          tags: agent_name_ftd_union
+    - name: agent_name_redepositor_union
+      description: "union for redepositor agent"
+      config:
+          enabled: true
+          tags: agent_name_redepositor_union
+    - name: calls_count_all_union
+      description: "union for counting all calls"
+      config:
+          enabled: true
+          tags: calls_count_all_union
+    - name: calls_per_month_union
+      description: "union for calls per month brz desks"
+      config:
+          enabled: true
+          tags: calls_per_month_union
+    - name: clients_with_brand_union
+      description: "union for clients table"
+      config:
+          enabled: true
+          tags: clients_with_brand_union
+    - name: transactions_with_brand_union
+      description: "union for transactions table"
+      config:
+          enabled: true
+          tags: transactions_with_brand_union
+    - name: first_approved_date_union
+      description: "union for first redeposit"
+      config:
+          enabled: true
+          tags: first_approved_date_union
+    - name: chargeback_clients_transactions_union
+      description: "union for chargeback clients"
+      config:
+          enabled: true
+          tags: chargeback_clients_transactions_union
+    - name: client_notes_union
+      description: "union for client notes"
+      config:
+          enabled: true
+          tags: client_notes_union
+    - name: conversion_rate_denominator_union
+      description: "union for ftd count table"
+      config:
+          enabled: true
+          tags: conversion_rate_denominator_union
+    - name: deposits_count_union
+      description: "union counting deposits each client"
+      config:
+          enabled: true
+          tags: deposits_count_union
+    - name: first_approved_date_less_1k_union
+      description: "union for first redeposit less 1k"
+      config:
+          enabled: true
+          tags: first_approved_date__less_1k_union
+    - name: first_approved_date_more_1k_union
+      description: "union for first redeposit more 1k"
+      config:
+          enabled: true
+          tags: first_approved_date_more_1k_union
+    - name: ftd_deposits_amounts_union
+      description: "union for ftd amount buckets"
+      config:
+          enabled: true
+          tags: ftd_deposits_amounts_union
+    - name: ftd_deposits_union
+      description: "union for ftd transactions"
+      config:
+          enabled: true
+          tags: ftd_deposits_union
+    - name: ftds_yesterday_union
+      description: "union for yesterdays ftds"
+      config:
+          enabled: true
+          tags: ftds_yesterday_union
+    - name: max_call_date_union
+      description: "union for max call date"
+      config:
+          enabled: true
+    - name: non_answering_clients_all_union
+      description: "union for all non answering clients"
+      config:
+          enabled: true
+          tags: non_answering_clients_all_union
+    - name: non_ftd_deposits_union
+      description: "union for non ftd deposits"
+      config:
+          enabled: true
+          tags: non_ftd_deposits_union
+    - name: non_ftd_deposits_yesterday_union
+      description: "union for yesterdays non ftd deposits"
+      config:
+          enabled: true
+          tags: non_ftd_deposits_yesterday_union
+    - name: non_ftd_total_union
+      description: "union for total non ftds"
+      config:
+          enabled: true
+          tags: non_ftd_total_union
+    - name: non_ftd_transactions_union
+      description: "union for non ftd transactions"
+      config:
+          enabled: true
+          tags: non_ftd_transactions_union
+    - name: non_ftd_withdrawals_union
+      description: "union for non ftd withdrawals"
+      config:
+          enabled: true
+          tags: non_ftd_withdrawals_union
+    - name: non_ftd_withdrawals_yesterday_union
+      description: "union for uesterdays non ftd withdrawals"
+      config:
+          enabled: true
+          tags: non_ftd_withdrawals_yesterday_union
+    - name: refunded_clients_transactions_union
+      description: "union for refunded clients transactions"
+      config:
+          enabled: true
+          tags: refunded_clients_transactions_union
+    - name: pv_numerator_union
+      description: "union for pv numerator net amount"
+      config:
+          enabled: true
+          tags: pv_numerator_union
+    - name: redepositor_amounts_union
+      description: "union for redepositors amounts"
+      config:
+          enabled: true
+          tags: redepositor_amounts_union
+    - name: redepositor_amounts_atomix_union
+      description: "union for redepositors in atomix amounts"
+      config:
+          enabled: true
+          tags: redepositor_amounts_atomix_union
+    - name: redepositor_client_union
+      description: "union for redepositors clients"
+      config:
+          enabled: true
+          tags: redepositor_client_union
+    - name: sales_depositors_union
+      description: "union for sales depositors report"
+      config:
+          enabled: true
+          tags: sales_depositors_union
+    - name: summary_calls_union
+      description: "union for summary calls table"
+      config:
+          enabled: true
+          tags: summary_calls_union
+    - name: summary_table_union
+      description: "union for summary table"
+      config:
+          enabled: true
+          tags: summary_table_union
+    - name: campaign_table_union
+      description: "union for summary campaign table"
+      config:
+          enabled: true
+          tags: campaign_table_union
+    - name: ta_with_brand_union
+      description: "union for ta with brand"
+      config:
+          enabled: true
+          tags:  ta_with_brand_union
+    - name: total_client_sum_zero_union
+      description: "union for clients with zero balance"
+      config:
+          enabled: true
+          tags: total_client_sum_zero_union
+    - name: withdrawals_count_per_month_union
+      description: "union for withdrawals count last 3 months"
+      config:
+          enabled: true
+          tags: withdrawals_count_per_month_union
