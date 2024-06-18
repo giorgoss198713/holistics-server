@@ -120,7 +120,7 @@ models:
       description: "union for first redeposit less 1k"
       config:
           enabled: true
-          tags: first_approved_date__less_1k_union
+          tags: first_approved_date_less_1k_union
     - name: first_approved_date_more_1k_union
       description: "union for first redeposit more 1k"
       config:
@@ -145,11 +145,17 @@ models:
       description: "union for max call date"
       config:
           enabled: true
+          tags: max_call_date_union
     - name: non_answering_clients_all_union
       description: "union for all non answering clients"
       config:
           enabled: true
           tags: non_answering_clients_all_union
+    - name: non_answering_pools_union
+      description: "union for all non answering pools"
+      config:
+          enabled: true
+          tags: non_answering_pools_union
     - name: non_ftd_deposits_union
       description: "union for non ftd deposits"
       config:
@@ -175,6 +181,11 @@ models:
       config:
           enabled: true
           tags: non_ftd_withdrawals_union
+    - name: non_ftd_withdrawals_cb_union
+      description: "union for non ftd withdrawals that are not cb or refund"
+      config:
+          enabled: true
+          tags: non_ftd_withdrawals_cb_union
     - name: non_ftd_withdrawals_yesterday_union
       description: "union for uesterdays non ftd withdrawals"
       config:
@@ -234,7 +245,7 @@ models:
       description: "union for ta with brand"
       config:
           enabled: true
-          tags:  ta_with_brand_union
+          tags: ta_with_brand_union
     - name: total_client_sum_zero_union
       description: "union for clients with zero balance"
       config:
