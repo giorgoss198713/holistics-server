@@ -215,6 +215,11 @@ models:
       config:
           enabled: true
           tags: summary_calls_union
+    - name: summary_agent_union
+      description: "union for summary agents table"
+      config:
+          enabled: true
+          tags: summary_agent_union
     - name: summary_table_union
       description: "union for summary table"
       config:
