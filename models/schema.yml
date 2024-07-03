@@ -256,3 +256,13 @@ models:
       config:
           enabled: true
           tags: withdrawals_count_per_month_union
+    - name: deposits_last_week_union
+      description: "union for whether client has deposit last week"
+      config:
+          enabled: true
+          tags: deposits_last_week_union
+    - name: summary_client_amounts_union
+      description: "union for summary amounts per client"
+      config:
+          enabled: true
+          tags: summary_client_amounts_union
