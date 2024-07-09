@@ -266,3 +266,8 @@ models:
       config:
           enabled: true
           tags: summary_client_amounts_union
+    - name: client_last_note_union
+      description: "union for last note of client"
+      config:
+          enabled: true
+          tags: client_last_note_union
