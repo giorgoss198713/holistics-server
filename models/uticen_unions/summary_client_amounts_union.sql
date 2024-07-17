@@ -1,6 +1,9 @@
 select
 login, client_id, client_id_brand, brand_name, ftd_date, deposits, withdrawals,
-net_deposits, deposits_ex_ftd, withdrawals_ex_ftd, net_deposits_ex_ftd
+net_deposits, deposits_ex_ftd, withdrawals_ex_ftd, net_deposits_ex_ftd,
+deposits_count_prev_day, deposits_minus_one_interval_day,
+deposits_minus_one_interval_month, deposits_count_prev_month,
+deposits_prev_month
 from sales_marketing.summary_client_amounts_dbt
 UNION ALL
 select 
