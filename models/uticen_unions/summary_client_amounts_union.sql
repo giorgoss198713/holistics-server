@@ -1,5 +1,5 @@
 select
-client_id, client_id_brand, pool, brand_name, ftd_date, 
+client_id, client_id_brand, pool, brand_name, full_name, retention_agent, status, ftd_date, 
 deposit_last_day, deposit_five_days_before, client_in_email_list_cat3,
 deposits, withdrawals,
 net_deposits, deposits_ex_ftd, withdrawals_ex_ftd, net_deposits_ex_ftd,
