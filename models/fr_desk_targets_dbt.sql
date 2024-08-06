@@ -1,0 +1,1 @@
+select month_year, desk_month_year, requested::INT, agents::INT from sales_marketing.fr_desk_targets

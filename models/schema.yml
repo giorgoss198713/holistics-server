@@ -271,3 +271,8 @@ models:
       config:
           enabled: true
           tags: client_last_note_union
+    - name: fr_desk_targets_dbt
+      description: "french desk targets and agents count"
+      config:
+          enabled: true
+          tags: fr_desk_targets
