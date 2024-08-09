@@ -2,7 +2,7 @@ with normalized_google_sheet AS (SELECT concat, "Brand Name" as brand_name, "Tea
 "Agent Name Final" as agent_name_final, "1st Agent Target" as "1st_agent_target", "Pool status" as pool_status, 
 "1st Team Target" as "1st_team_target", "Pool Final" as pool_final, "Agent Name CRM" as agent_name_crm, 
 "2nd Team Target" as "2nd_team_target", "2nd Agent Target" as "2nd_agent_target"
-FROM google_sheets.ret__agents_targets),
+FROM sales_marketing.ret__agents_targets),
 
 start_end_date AS (
 SELECT a.*,
