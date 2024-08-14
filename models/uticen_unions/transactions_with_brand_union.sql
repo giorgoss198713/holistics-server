@@ -8,7 +8,7 @@ brand_pool, NULL AS agent, agent_id_brand, client_id_brand_day, client_id_brand_
 client_id_brand_transid_isftd, client_id_brand_day_isftd, client_id_brand_day_isftd_type,
 agent_id_brand_final, agent_id_brand_day, pool_final, brand_pool_final,
 usd_amount_with_minus, answered_binary,username_brand_date, username_brand,
-week_of_month,day_of_week
+week_of_month,day_of_week,card_number
 from sales_marketing.transactions_with_brand_dbt twb
 left join sales_marketing.fundprocessors_transformed_dbt fp ON fp.fundprocessor_id_brand=twb.fundprocessor_id_brand
 left join sales_marketing.psp_brand psp ON psp.psp_id_brand=twb.psp_id_brand
