@@ -280,4 +280,9 @@ models:
       description: "union benjamins agents"
       config:
           enabled: true
-          tags: c agent_name_benjamin_union
+          tags: agent_name_benjamin_union
+    - name: agent_name_adam_union
+      description: "union adams agents"
+      config:
+          enabled: true
+          tags: agent_name_adam_union
