@@ -276,3 +276,8 @@ models:
       config:
           enabled: true
           tags: fr_desk_targets
+    - name: agent_name_benjamin_union
+      description: "union benjamins agents"
+      config:
+          enabled: true
+          tags: c agent_name_benjamin_union
