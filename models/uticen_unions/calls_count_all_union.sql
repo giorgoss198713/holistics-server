@@ -15,6 +15,7 @@ select
     call_type,
     username,
     type,
+    role_type,
 	conversation_successful_count,
     no_answer_count,
     answered_short_conversation_count,
