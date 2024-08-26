@@ -1,6 +1,6 @@
 select
 id, education_site, education_cb, country, formatted_occupation, initial_occupation, occupation_group,
-age, initial_marital_status, zip_code, state, cpa, depositor, brm_id, dialer_id, email, ftd_date, deposit_amount,
+age, initial_marital_status, zip_code, city, state, cpa, depositor, brm_id, dialer_id, email, ftd_date, deposit_amount,
 withdrawal_amount, last_call_date, entry_type, verified, status, pool, created_date, cl.campaign_id, 
 cb.campaign_name_transformed as campaign_name,
 referral, converted_date, is_ftd, cl.brand_name, login_count, first_calling_pool_transformed, desk_manager, pool_language,
