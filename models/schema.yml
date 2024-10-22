@@ -286,3 +286,8 @@ models:
       config:
           enabled: true
           tags: agent_name_adam_union
+    - name: withdrawals_count_union
+      description: "counting withdrawals per client"
+      config:
+          enabled: true
+          tags: withdrawals_count_union
