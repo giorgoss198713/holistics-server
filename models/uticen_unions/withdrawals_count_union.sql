@@ -1,5 +1,5 @@
 select
-client_id_brand, deposits_count
+client_id_brand, deposits_count as withdrawals_count
 from sales_marketing.withdrawals_count_dbt
 UNION ALL
 select 
